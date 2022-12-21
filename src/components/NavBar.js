@@ -7,11 +7,10 @@ import { CardButton } from './CardButton'
 import { LoginButton } from './LoginButton'
 
 export const NavBar = () => {
-  console.log(links)
   return (
     <nav className='py-4'>
       <Wrapper>
-        <div className='flex items-center justify-between'>
+        <div className='flex items-center justify-between '>
           <Link to='/'>
             <img src={logo} alt='comfy sloth' className='h-12' />
           </Link>

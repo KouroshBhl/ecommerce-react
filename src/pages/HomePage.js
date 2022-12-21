@@ -1,6 +1,10 @@
 import React from 'react'
-import { NavBar, Wrapper } from '../components'
+import { NavBar, Wrapper, Hero } from '../components'
 
 export const HomePage = () => {
-  return <div>Home</div>
+  return (
+    <>
+      <Hero />
+    </>
+  )
 }
