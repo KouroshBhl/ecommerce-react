@@ -6,7 +6,7 @@ import { Button } from './Button'
 
 export const Hero = () => {
   return (
-    <div className='grid grid-cols-2 relative h-full w-7/12  mx-auto my-28 justify-center'>
+    <div className='grid grid-cols-2 relative h-full w-7/12  mx-auto my-28 justify-center '>
       <div className=''>
         <h1 className='text-6xl font-semibold mb-10'>
           Design Your Comfort Zone
@@ -20,12 +20,14 @@ export const Hero = () => {
         </p>
         <Button>SHOP NOW</Button>
       </div>
-      <div className=''>
-        <img
-          src={doubleSofa}
-          alt='double sofa'
-          className='absolute right-0 z-10 w-[400px] h-xl'
-        />
+      <div className='w-full h-full'>
+        <figure>
+          <img
+            src={doubleSofa}
+            alt='double sofa'
+            className=' z-10 w-[370px] h-xl ml-auto'
+          />
+        </figure>
       </div>
     </div>
   )
